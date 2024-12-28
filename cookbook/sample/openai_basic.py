@@ -1,5 +1,4 @@
-import os
-from openaillm import OpenAILLM
+from smith.llm import OpenAILLM
 
 def make_request():
   print("Making request...")
